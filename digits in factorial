@@ -1,0 +1,17 @@
+//User function Template for C++
+
+//You need to complete this function
+
+int digitsInFactorial(int N)
+{
+    //Your code here
+    
+    double totalDigits=0;
+     while( N!= 0) {
+     	
+     	totalDigits +=  log10(N);
+     	N--;
+	 } 
+	 return floor(totalDigits)+1;
+    
+}
