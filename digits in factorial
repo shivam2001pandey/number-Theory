@@ -15,3 +15,4 @@ int digitsInFactorial(int N)
 	 return floor(totalDigits)+1;
     
 }
+
